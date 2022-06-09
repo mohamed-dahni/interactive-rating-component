@@ -1,7 +1,7 @@
 # Interactive rating component
 image.png
 
-![alt text](https://github.com/mohamed-dahni/interactive-rating-component/blob/master/screenshot.png?raw=true)
+![alt text](https://github.com/mohamed-dahni/interactive-rating-component/blob/main/screenshot.png?raw=true)
 
 
 ### Links
