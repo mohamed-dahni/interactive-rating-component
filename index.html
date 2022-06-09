@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="./index.js" defer></script>
+
+  <title>Interactive rating component</title>
+
+</head>
+
+<body>
+
+  <div class="card-container">
+    <div class="card">
+      <div class="front">
+
+        <div class="star circle">
+          <img src="./images/icon-star.svg" alt="star">
+        </div>
+
+        <div class="info">
+          <h2>How did we do?</h2>
+          <p>
+            Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+            offering!
+          </p>
+        </div>
+
+        <ul class="rating">
+          <li class="circle">1</li>
+          <li class="circle">2</li>
+          <li class="circle">3</li>
+          <li class="circle">4</li>
+          <li class="circle">5</li>
+        </ul>
+
+        <button id="submit" class="btn submit-btn" type="button">submit</button>
+
+      </div>
+      <div class="back">
+
+        <div class="head">
+          <img src="./images/illustration-thank-you.svg" alt="">
+        </div>
+
+        <p class="hint">You selected <span class="selected"></span> out of <span class="total"></span></p>
+
+        <div class="info">
+          <h2>Thank you!</h2>
+
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in
+            touch!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
