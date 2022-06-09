@@ -1,5 +1,4 @@
 # Interactive rating component
-image.png
 
 ![alt text](https://github.com/mohamed-dahni/interactive-rating-component/blob/main/screenshot.png)
 
